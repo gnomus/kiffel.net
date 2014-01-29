@@ -1,0 +1,37 @@
+{
+	"name": "kiffel.net",
+	"version": "0.0.1",
+	"author": "gnomus <gnomus@gnomus.de>",
+	"description": "The Node Project for the kiffel.net Website",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Gnomus/kiffel.net-web"
+	},
+	"dependencies": {
+		"express": "latest",
+		"socket.io": "latest",
+		"ueberDB": "latest",
+		"moment": "latest",
+		"jade": "latest",
+		"cron": "latest",
+		"underscore": "latest"
+	},
+	"devDependencies": {
+		"grunt-contrib-watch": "latest",
+		"grunt-contrib-jshint": "latest",
+		"grunt-contrib-less": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-contrib-copy": "latest",
+		"grunt-contrib-concat": "latest",
+		"grunt-contrib-uglify": "latest",
+		"grunt-notify": "latest",
+		"time-grunt": "latest",
+		"jshint-stylish": "latest",
+		"grunt-yui-compressor": "latest"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.10"
+	}
+}

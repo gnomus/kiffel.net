@@ -1,0 +1,10 @@
+{
+	"name": "kiffel.net",
+	"private": true,
+	"dependencies": {
+		"jquery": "latest",
+		"momentjs": "latest",
+		"normalize-less": "latest"
+	},
+	"devDependencies": {}
+}

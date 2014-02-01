@@ -1,0 +1,7 @@
+module.exports = {
+  'logger': {
+    'name': 'mainlogger',
+    'file': 'main.log',
+    'loglevel': 'debug'
+  }
+};

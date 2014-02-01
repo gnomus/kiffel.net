@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 			},
 			lib: {
 				files: [
-					'lib/*.js',
+					'app/lib/*.js',
 					'app.js',
 					'config.js',
 					'config.js.example'
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
 				'config.js',
 				'config.js.example',
 				'app/scripts/*.js',
-				'lib/* .js '
+				'app/lib/*.js '
 			]
 		},
 		less: {
@@ -112,6 +112,6 @@ module.exports = function(grunt) {
 
 	// JS distribution task.
 	grunt.registerTask('default', ['copy', 'jshint', 'less', 'concat', 'watch']);
-	grunt.registerTask('dist', ['copy', 'jshint', 'less', 'cssmin', 'uglify']);
+	grunt.registerTask('dist', ['copy', 'jshint', 'less', 'concat', 'cssmin', 'uglify']);
 
 };

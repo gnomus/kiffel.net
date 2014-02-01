@@ -3,5 +3,9 @@ module.exports = {
     'name': 'mainlogger',
     'file': 'main.log',
     'loglevel': 'debug'
+  },
+  'server': {
+    port: 8080,
+    secret: 'myhappysecret'
   }
 };

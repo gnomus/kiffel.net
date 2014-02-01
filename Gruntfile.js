@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 			},
 			css: {
 				files: ['app/less/*.less'],
-				tasks: ['less:dev']
+				tasks: ['less']
 			}
 		},
 		jshint: {
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
 				separator: ';',
 			},
 			all: {
-				src: ['app/scripts/*.js', 'app/scripts/vendor/*.js'],
+				src: ['app/scripts/*.js'],
 				dest: 'app/static/js/script.js',
 			},
 		},
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
 					expand: true,
 					dot: true,
 					cwd: 'bower_components',
-					dest: 'app/less',
+					dest: 'app/less/vendor',
 					flatten: true,
 					src: [
 						'normalize-less/*.less'
@@ -82,11 +82,11 @@ module.exports = function(grunt) {
 					expand: true,
 					dot: true,
 					cwd: 'bower_components',
-					dest: 'app/scripts/vendor',
+					dest: 'app/static/js/vendor',
 					flatten: true,
 					src: [
-						'momentjs/*.js',
-						'jquery/jquery.js'
+						'momentjs/min/moment.min.js',
+						'jquery/jquery.min.js'
 					]
 				}]
 			},

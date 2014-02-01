@@ -15,7 +15,8 @@
 		"moment": "latest",
 		"jade": "latest",
 		"cron": "latest",
-		"underscore": "latest"
+		"underscore": "latest",
+		"log4js": "latest"
 	},
 	"devDependencies": {
 		"grunt-contrib-watch": "latest",
